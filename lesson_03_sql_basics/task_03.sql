@@ -16,4 +16,4 @@ ORDER BY
   action,
   time DESC
 LIMIT
-  1000
+  1000;
