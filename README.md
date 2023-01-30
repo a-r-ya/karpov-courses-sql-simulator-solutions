@@ -1,2 +1,2 @@
-# karpov.courses
+# karpov-courses-sql-simulator-solutions
  
