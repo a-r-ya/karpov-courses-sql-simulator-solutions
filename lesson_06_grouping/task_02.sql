@@ -5,7 +5,6 @@
 Результат отсортируйте по новой колонке по возрастанию возраста.
 Поля в результирующей таблице: sex, max_age
 */
-
 SELECT
   sex,
   MAX(DATE_PART('year', AGE(birth_date))) AS max_age

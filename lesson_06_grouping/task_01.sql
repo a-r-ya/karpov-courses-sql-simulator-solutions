@@ -5,7 +5,6 @@
 Результат отсортируйте по этой колонке по возрастанию.
 Поля в результирующей таблице: sex, couriers_count
 */
-
 SELECT
   sex,
   COUNT(sex) AS couriers_count

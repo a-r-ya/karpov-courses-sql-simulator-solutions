@@ -3,7 +3,6 @@
 Выведите только эту колонку.
 Поле в результирующей таблице: price
 */
-
 SELECT
   CAST(price AS VARCHAR)
 FROM

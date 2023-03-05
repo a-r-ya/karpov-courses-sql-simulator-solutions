@@ -12,7 +12,6 @@
 Отсортируйте полученную таблицу по колонке с наименованием групп по возрастанию.
 Поля в результирующей таблице: group_age, users_count
 */
-
 SELECT
   CASE
     WHEN DATE_PART('year', AGE(birth_date)) BETWEEN 19

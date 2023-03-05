@@ -8,7 +8,6 @@
 затем по типу действия — тоже по возрастанию.
 Поля в результирующей таблице: month, action, orders_count
 */
-
 SELECT
   DATE_TRUNC('month', time) AS month,
   action,

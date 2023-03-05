@@ -4,7 +4,6 @@
 Заказ № [id_заказа] создан [дата]
 Полученную колонку назовите order_info.
 */
-
 SELECT
   CONCAT('Заказ № ', order_id, ' создан ', creation_time::DATE) AS order_info
 FROM

@@ -7,7 +7,6 @@
 Результат отсортируйте по возрастанию id курьера.
 Поля в результирующей таблице: courier_id, delivered_orders
 */
-
 SELECT
   courier_id,
   COUNT(DISTINCT order_id) AS delivered_orders

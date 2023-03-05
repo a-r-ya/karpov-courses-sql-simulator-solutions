@@ -3,7 +3,6 @@
 Для сортировки используйте оператор ORDER BY.
 Поля в результирующей таблице: product_id, name, price
 */
-
 SELECT
   *
 FROM

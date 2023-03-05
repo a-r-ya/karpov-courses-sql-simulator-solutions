@@ -3,7 +3,6 @@
 Результат отсортируйте по убыванию цены.
 Поля в результирующей таблице: product_id, name, price
 */
-
 SELECT
   product_id,
   name,

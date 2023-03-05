@@ -7,7 +7,6 @@
 8350 days, 0:00:00
 Поле в результирующей таблице: age_diff
 */
-
 SELECT
   AGE(MIN(birth_date)) - AGE(MAX(birth_date)) AS age_diff
 FROM

@@ -5,7 +5,6 @@
 Столбец с полученным значением назовите avg_price.
 Поле в результирующей таблице: avg_price
 */
-
 SELECT
   ROUND(AVG(price), 2) AS avg_price
 FROM

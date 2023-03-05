@@ -5,7 +5,6 @@
 Полученный столбец назовите orders_count.
 Поле в результирующей таблице: orders_count
 */
-
 SELECT
   COUNT(DISTINCT order_id) AS orders_count
 FROM

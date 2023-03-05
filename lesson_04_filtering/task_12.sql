@@ -9,7 +9,6 @@
 Порядок расчёта налога тот же, что и в задании из прошлого урока.
 Поля в результирующей таблице: product_id, name, price, tax, price_before_tax
 */
-
 SELECT
   product_id,
   name,

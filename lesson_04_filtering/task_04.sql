@@ -7,7 +7,6 @@
 вряд ли менеджер имел в виду и его, когда ставил нам задачу.
 Поля в результирующей таблице: product_id, name, price, discount, price_discounted
 */
-
 SELECT
   product_id,
   name,

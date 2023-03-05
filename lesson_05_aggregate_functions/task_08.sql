@@ -6,7 +6,6 @@
 Полученную колонку со значением возраста назовите min_age.
 Поле в результирующей таблице: min_age
 */
-
 SELECT
   AGE(birth_date) :: VARCHAR AS min_age
 FROM

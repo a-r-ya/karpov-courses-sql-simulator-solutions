@@ -7,7 +7,6 @@
 Поле в результирующе таблице: users_count
 Когда решите задачу, подумайте, смогли бы мы сейчас с ней справиться без агрегатных выражений.
 */
-
 SELECT
   COUNT(DISTINCT user_id) - COUNT(DISTINCT user_id) FILTER (
     WHERE

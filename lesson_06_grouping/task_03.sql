@@ -7,7 +7,6 @@
 для этой группы также подсчитаем число пользователей.
 Поля в результирующей таблице: age, users_count
 */
-
 SELECT
   DATE_PART('year', AGE(birth_date)) age,
   COUNT(DISTINCT user_id) AS users_count

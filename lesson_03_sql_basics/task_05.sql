@@ -3,7 +3,6 @@
 соответственно в product_name и product_price.
 Поля в результирующей таблице: product_name, product_price
 */
-
 SELECT
   name AS product_name,
   price AS product_price

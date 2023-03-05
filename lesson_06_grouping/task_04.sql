@@ -10,7 +10,6 @@
 затем по колонке с полом — тоже по возрастанию.
 Поля в результирующей таблице: age, sex, users_count
 */
-
 SELECT
   DATE_PART('year', AGE(birth_date)) age,
   sex,

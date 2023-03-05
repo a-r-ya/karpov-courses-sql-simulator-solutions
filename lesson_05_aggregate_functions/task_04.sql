@@ -8,7 +8,6 @@
 Все расчёты проведите на основе таблицы user_actions.
 Поля в результирующей таблице: unique_users, unique_orders, orders_per_user
 */
-
 SELECT
   COUNT(DISTINCT user_id) AS unique_users,
   COUNT(DISTINCT order_id) AS unique_orders,

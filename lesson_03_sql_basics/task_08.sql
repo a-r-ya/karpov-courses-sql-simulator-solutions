@@ -7,7 +7,6 @@
 затем по возрастанию id курьера.
 Поля в результирующей таблице: courier_id, birth_year
 */
-
 SELECT
   courier_id,
   COALESCE(

@@ -5,7 +5,6 @@
 Колонку с рассчитанной стоимостью заказа назовите order_price.
 Поле в результирующей таблице: order_price
 */
-
 SELECT
   SUM(price) AS order_price
 FROM
