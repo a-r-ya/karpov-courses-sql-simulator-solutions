@@ -36,8 +36,8 @@ SELECT
 FROM
   user_actions
 WHERE
-  time >= '2022-08-24'
-  AND time < '2022-09-07'
+  time::DATE >= '2022-08-24'
+  AND time::DATE <= '2022-09-06'
 GROUP BY 
   weekday_number, 
   weekday
